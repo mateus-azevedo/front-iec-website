@@ -1,3 +1,5 @@
+import { Header } from "./components";
+
 export default function RootLayout({
   children,
 }: {
@@ -6,7 +8,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body>
-        {/* Enter with header UI here */}
+        <Header />
         <main>{children}</main>
         {/* Enter with footer UI here */}
       </body>
