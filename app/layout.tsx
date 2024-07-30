@@ -1,3 +1,6 @@
+// These styles apply to every route in the application
+import './globals.css'
+
 import { Header } from "./components";
 
 export default function RootLayout({
